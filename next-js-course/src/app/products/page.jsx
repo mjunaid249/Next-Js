@@ -1,7 +1,8 @@
 import Link from "next/link";
 import React from "react";
 
-const Prodcuts = () => {
+const Prodcuts = ({ searchParams }) => {
+  console.log(searchParams);
   return (
     <div className="flex flex-col items-center justify-center gap-10">
       <h1 className="text-3xl text-black font-bold text-center mt-10">

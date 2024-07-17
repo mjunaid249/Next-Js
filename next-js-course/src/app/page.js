@@ -23,6 +23,7 @@ export default function Home() {
       >
         useRouter Navigation to products
       </button>
+
       <button
         onClick={() => router.push("/accounts")}
         className="border border-black p-2 rounded-xl hover:bg-slate-900 hover:text-white transition duration-200"
